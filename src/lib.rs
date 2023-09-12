@@ -1,4 +1,4 @@
-#![feature(backtrace, doc_cfg)]
+#![feature(backtrace, doc_cfg, lazy_cell)]
 #![doc(html_root_url = "https://stackdoubleflow.github.io/quest-hook-rs/quest_hook")]
 #![doc = include_str!("../README.md")]
 #![warn(
