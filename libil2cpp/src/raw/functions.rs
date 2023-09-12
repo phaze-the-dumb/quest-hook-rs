@@ -1,4 +1,5 @@
 #![allow(missing_docs)]
+#![feature(lazy_cell)]
 
 use libloading::{Library, Symbol};
 use quest_hook_proc_macros::il2cpp_functions;
